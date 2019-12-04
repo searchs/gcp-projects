@@ -260,8 +260,8 @@ get_ipython().run_cell_magic('writefile', 'trainer/task.py', '\nimport argparse\
 # In[30]:
 
 
-GCS_BUCKET = 'gs://qwiklabs-gcp-00-0cc2adcc88e2-bucket' #CHANGE THIS TO YOUR BUCKET
-PROJECT = 'qwiklabs-gcp-00-0cc2adcc88e2' #CHANGE THIS TO YOUR PROJECT ID
+GCS_BUCKET = 'gs://<PROJECT_ID-bucket>' #CHANGE THIS TO YOUR BUCKET
+PROJECT = '<PROJECT_ID>' #CHANGE THIS TO YOUR PROJECT ID
 REGION = 'us-central1' #OPTIONALLY CHANGE THIS
 
 
